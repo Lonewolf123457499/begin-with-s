@@ -1,0 +1,6 @@
+str= input(" enter the string")
+t=str.split(" ")
+le=len(t)
+for i in range(0,le):
+    if t[i][0]=="s":
+        print(t[i])
